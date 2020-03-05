@@ -1,0 +1,31 @@
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+.logo{
+    max-width: 150px;
+}
+img {
+    max-width: 100%;
+}
+li{
+    margin-left: 15px;
+    font-size: 22px;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 1s;
+}
+li:hover{
+    border-bottom: 1px solid black;
+    background: rgb(194, 44, 44);
+}
+.imagem-comida {
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
